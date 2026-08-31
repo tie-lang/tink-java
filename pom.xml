@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.tielang</groupId>
+    <artifactId>tink-java</artifactId>
+    <version>0.1.0</version>
+    <packaging>jar</packaging>
+
+    <name>tink-java</name>
+    <description>tink data-flow node frame protocol (universal, language-agnostic)</description>
+    <url>https://github.com/tie-lang/tink-java</url>
+
+    <license>
+        <name>TIE-LANG Open Source License v1.1</name>
+        <url>https://github.com/tie-lang/tink-java/blob/main/LICENSE</url>
+        <distribution>repo</distribution>
+    </license>
+
+    <organization>
+        <name>tie-lang</name>
+        <url>https://github.com/tie-lang</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>tie-lang</name>
+            <organization>tie-lang</organization>
+            <organizationUrl>https://github.com/tie-lang</organizationUrl>
+        </developer>
+    </developers>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+</project>
